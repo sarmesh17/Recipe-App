@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/signup"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="35dp"
+        android:textColor="@color/grey"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your informations"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:fontFamily="@font/inter_semibold"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="45dp"
+        android:hint="Enter your Email"
+        android:inputType="textEmailAddress"
+        android:forceDarkAllowed="false"
+        android:textColorHint="@color/navy_grey"
+        android:paddingStart="12dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:forceDarkAllowed="false"
+        android:textColorHint="@color/navy_grey"
+        android:paddingStart="12dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:backgroundTint="@color/white"
+        android:forceDarkAllowed="false"
+        android:inputType="textPassword"
+        android:textColorHint="@color/navy_grey"
+        android:paddingStart="12dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rectangle"
+        android:forceDarkAllowed="false"
+        android:textSize="15sp"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="welcome">Welcome</string>
+    <string name="let_s_cook">Let\'s cook</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="chef">chef</string>
+    <string name="sign_up_or_login">Sign up or login</string>
+    <string name="email">Email</string>
+    <string name="login0">Login</string>
+    <string name="password">Password</string>
+    <string name="img">img</string>
+    <string name="enter_your_login_and_password">Enter your login and password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="food_day">Food Day</string>
+    <string name="all_recipes">All recipes</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="tea">Tea</string>
+    <string name="recipeimg">recipeImg</string>
+</resources>

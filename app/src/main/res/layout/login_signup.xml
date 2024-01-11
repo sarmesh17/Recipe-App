@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chef"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/chef"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_or_login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="@color/grey"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/button_background"
+        android:paddingHorizontal="130dp"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/signUp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/green"
+        android:paddingHorizontal="135dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round"
+        android:textSize="16sp"
+        android:forceDarkAllowed="false"
+        android:textColor="@color/black"
+        android:id="@+id/login"/>
+</LinearLayout>

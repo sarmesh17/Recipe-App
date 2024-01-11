@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:src="@drawable/login"
+        android:contentDescription="@string/img"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login0"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="25sp"
+        android:textColor="@color/grey"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_login_and_password"
+        android:gravity="center"
+        android:textColor="@color/navy_grey"
+        android:textSize="18sp"
+        android:fontFamily="@font/inter_semibold"
+        android:layout_marginTop="15dp"
+        android:paddingStart="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="15dp"
+        android:autofillHints="emailAddress"
+        android:forceDarkAllowed="false"
+        android:textColorHint="@color/navy_grey"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:paddingVertical="13dp"
+        android:paddingHorizontal="15dp"
+        android:textColorHint="@color/navy_grey"
+        android:forceDarkAllowed="false"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textAllCaps="false"
+        android:layout_gravity="end"
+        android:layout_marginEnd="28dp"
+        android:textColor="@color/grey"
+        android:paddingBottom="5dp"
+        android:id="@+id/forgotPass"
+        android:background="@android:color/transparent" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/green"
+        android:paddingHorizontal="135dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:forceDarkAllowed="false"/>
+
+</LinearLayout>

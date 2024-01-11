@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/food_day"
+        android:textSize="35sp"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"/>
+
+
+    <android.widget.SearchView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        app:queryHint="Search food"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:iconifiedByDefault="false"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginBottom="12dp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        >
+
+
+    <Button
+        android:id="@+id/btnAllRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:paddingHorizontal="10dp"
+        android:text="@string/all_recipes"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:background="@drawable/round_btn"
+        android:forceDarkAllowed="false"
+        style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnBreakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/inter_semibold"
+            android:paddingHorizontal="10dp"
+            android:text="@string/breakfast"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="@drawable/round_btn"
+            android:textStyle="bold"
+            android:forceDarkAllowed="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="@string/lunch"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/inter_semibold"
+            android:textStyle="bold"
+            android:background="@drawable/round_btn"
+            android:textAllCaps="false"
+            android:forceDarkAllowed="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnDinner"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingHorizontal="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="@string/dinner"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/inter_semibold"
+            android:background="@drawable/round_btn"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:forceDarkAllowed="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnTea"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingHorizontal="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="@string/tea"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/inter_semibold"
+            android:textStyle="bold"
+            android:background="@drawable/round_btn"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"
+            android:forceDarkAllowed="false"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"/>
+
+</LinearLayout>
